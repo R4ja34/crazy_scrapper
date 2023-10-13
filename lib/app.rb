@@ -44,10 +44,6 @@ end
   name = crypto_name(page)
   price = crypto_price(page)
   array = crypto_array(name, price)
-  
-  p name
-  p price.class
-  p array.class
 
   puts "Choisissez une action :"
   puts "1. tableau de tout les crypto"
